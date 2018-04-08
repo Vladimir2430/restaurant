@@ -1,0 +1,781 @@
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Yeseva One";
+	src: url(../fonts/YesevaOne-Regular_v2.otf);
+}
+
+@font-face {
+	font-family: "Gentium Basic";
+	src: url(../fonts/GenBasB.ttf);
+}
+
+
+@font-face {
+	font-family: "Open Sans italic";
+	src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+	  background: rgba(222, 222, 222, 0.3);
+	  margin: 0 auto;
+    background-image: url("../images/pattern1.png");
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    background-image: url("../images/header.png");
+    background-size: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 159px;
+    float: left;
+}
+
+.logo {
+	margin: 34px 5px;
+	font-size: 46px;
+	font-family: "Yeseva One";
+	color: #ffffff;
+	text-align: center;
+	-moz-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
+	-webkit-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
+	-ms-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
+	position: absolute;
+	left: 150.84px;
+	text-decoration: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    background-color: inherit;
+    color: #ffffff;
+    font-family: 'Gentium Basic', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    user-select: none;
+    display: block;
+}
+
+.nav-menu a:hover {
+	color: red;
+}
+
+.nav-menu  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+    max-width: 850px;
+}
+
+.nav-menu a:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: rgba(255,255,255,.71);
+}
+
+.nav-menu li {
+    float: left;
+    position: relative;
+    margin: 50px 10px 5px 46px;
+}
+
+.nav-menu {
+    height: 72px;
+    margin-left: 530px;
+    float: left;
+}
+
+.icons {
+	list-style: none;
+	margin: 0 0 0 1305px;
+	padding: 0;
+	max-width: 200px;
+	height: 72px;
+}
+
+.icons li {
+	margin-top: 50px;
+	background: url("../images/icons.png") no-repeat;
+	width: 27px;
+	height: 21px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.icons .icon2 {
+	background-position: -32px 0;
+}
+
+.icons .icon3 {
+	background-position: -63px 0;
+}
+
+                                          /*MAIN*/
+main {
+  min-height: calc(100vh - 320px);
+}
+
+.promo {
+    background-image: url("../images/promo.png");
+    height: 750px;
+}
+
+.promo h1 {
+    font-family: 'Yeseva One', cursive;
+    width: 960px;
+    overflow: hidden;
+    opacity: 0.92;
+    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 120px;
+    padding-top: 212px;
+    text-align: center;
+    user-select: none;
+    max-height: 250px;
+    cursor: default;
+    margin: 0 auto;
+}
+
+.divider {
+	height: 43px;
+	width: 232px;
+	background-image: url("../images/divider.png");
+    margin-top: 22px;
+    margin-left: 687px;
+}
+
+.buttons {
+	margin-top: 33px;
+    overflow: hidden;
+}
+
+.button1 {
+    margin: 0 0 0 555px;
+    width: 228px;
+    height: 57px;
+    border: 1px solid #000000;
+    background-color: rgba(0,0,0,0.55);
+}
+
+.button1:hover {
+    background-color: rgba(0,0,0,0.8);
+    transition: 0.3s;
+}
+
+.button1 a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    user-select: none;
+    overflow: hidden;
+    max-height: 57px;
+    display: block;
+    line-height: 57px;
+}
+
+.button2 {
+    margin: 0 0 0 27px;
+    width: 228px;
+    height: 57px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.button2:hover {
+    background-color: rgba(255,255,255,0.5);
+    transition: 0.3s;
+}
+
+.button2 a {
+    text-decoration: none;
+    width: 228px;
+    height: 57px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    user-select: none;
+    overflow: hidden;
+    max-height: 57px;
+    display: block;
+    line-height: 57px;
+}
+
+.about {
+    width: 1600px;
+    box-shadow: inset 0 0 50px rgba(1, 1, 1, 0.14);
+    max-height: 2000px;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    top: 0;
+    padding: 0 0 41px 0;
+}
+
+.about article {
+    position: relative;
+    top: 55px;
+    left: 295px;
+    height: 625px;
+    width: 1070px;
+}
+
+.about article h2 {
+    margin: 45px 0 0 0;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    user-select: none;
+    cursor: default;
+    width: 410px;
+    overflow: hidden;
+    max-height: 90px;
+    text-align: center;
+}
+
+.divider2 {
+	background-image: url("../images/divider2.png");
+	width: 247px;
+	height: 24px;
+    margin: 15px 0 0 80px;
+}
+
+.about article p {
+    margin: 25px 0 0 -2px;
+    width: 412px;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 120px;
+}
+
+.cook {
+    margin: 50px 0 0 130px;
+}
+
+.dish {
+    position: absolute;
+    top: -46px;
+    left: 445px;
+}
+
+.ingredients {
+    background-image: url("../images/ingredients.png");
+    height: 758px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.ingredients article {
+    margin: 0 0 0 600px;
+    width: 570px;
+    height: 560px;
+    background-color: rgba(0,0,0,0.58);
+}
+
+.ingredients > article > h2 {
+    margin: 77px 0 0 0;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    user-select: none;
+    cursor: default;
+    overflow: hidden;
+    max-height: 90px;
+    text-align: center;
+}
+
+.ingredients .divider3 img {
+    margin: 14px 0 24px 162px;
+    border-radius: 0%;
+    border: 0px;
+}
+
+.ingredients article p {
+    width: 412px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 130px;
+    margin: 0px 0 69px 80px;
+}
+
+.ingredients-picture {
+  width: 440px;
+  height: 110px;
+  margin: 0 0 0 90px;
+  overflow: hidden;
+}
+
+.ingredients img {
+    float: left;
+    margin: 0 30px 0 0;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.09);
+}
+                                                     /*MENU*/
+.menu {
+    max-height: 2000px;
+    overflow: hidden;
+    background-image: url("../images/pattern2.png");
+    width: 1200px;
+    height: 993px;
+    overflow: hidden;
+    position: relative;
+    top: 102px;
+    left: 261px;
+}
+
+.list {
+    float: left;
+    margin-right: 139px;
+}
+
+.group {
+    position: relative;
+    left: 5px;
+    width: 455px;
+    margin-bottom: 61px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.group h2 {
+    margin: 0;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    user-select: none;
+    cursor: default;
+    overflow: hidden;
+    max-height: 90px;
+    text-align: center;
+}
+
+.group>img {
+    text-align: center;
+    margin: 10px 0 0 104px;
+}
+
+.item {
+    width: 431px;
+    height: 81px;
+    margin: 26px 0 -10px 10px;
+}
+
+.item > h5 {
+    margin: 0;
+    position: relative;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    overflow: hidden;
+    max-width: 285px;
+}
+
+.item > p {
+    margin: -24px 0 0 0;
+    color: #c89f2d;
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    overflow: hidden;
+    max-width: 100px;
+    float: right;
+}
+
+.item h6 {
+    margin: 9px 0 0 0;
+    padding-top: 7px;
+    border-top: 1px solid #c89f2d;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: hidden;
+    max-height: 24px;
+}
+
+.special {
+    position: absolute;
+    top: 194px;
+    left: 6px;
+    width: 452px;
+    height: 81px;
+    border: 1px solid #c89f2d;
+    opacity: 0.6;
+}
+
+.special-icon {
+    position: absolute;
+    top: 172px;
+    left: 392px;
+    width: 69px;
+    height: 22px;
+    background-color: #c89f2d;
+    color: #f8fafa;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+                                                        /*REVIEWS*/
+.reviews {
+    background-image: url("../images/reviews.png");
+    height: 758px;
+}
+
+.reviews article {
+    position: relative;
+    top: 100px;
+    left: 415px;
+    width: 770px;
+    height: 557px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.reviews article h2 {
+    position: relative;
+    top: 76px;
+    margin:0;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    user-select: none;
+    cursor: default;
+    overflow: hidden;
+    max-height: 90px;
+    text-align: center;
+}
+
+.reviews .divider3 {
+    margin: 90px 0 0 262px;
+}
+
+.reviews article p {
+    width: 615px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 267px;
+	margin: 16px 0 33px 75px;
+    font-family: 'Gentium Basic', serif;
+    font-size: 25px;
+    font-weight: 700;
+	line-height: 45px;
+	letter-spacing: 0.2px;
+    color: #dde0df;
+}
+
+.reviews article span {
+    text-align: center;
+    overflow: hidden;
+    max-height: 90px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+	color: #dde0df;
+	margin: 0 0 0 308px;
+}
+
+.reviews article p:before {
+    content: "\201C";
+    position: absolute;
+    left: 29px;
+    top: 187px;
+    width: 32px;
+    height: 25px;
+    color: #f2f4f4;
+    font-family: Georgia, serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 45px;
+}
+                                                    /*RESERVATION*/
+.reservations {
+    max-height: 2000px;
+    overflow: hidden;
+    height: auto;
+    width: 1370px;
+    overflow: hidden;
+    margin: 0 0 100px 215px;
+}
+
+.reservations-dishes {
+    width: 600px;
+    overflow: hidden;
+    max-height: 1600px;
+    float: left;
+    margin-right: 60px;
+}
+
+.reservations img {
+    margin: 100px 25px 0 0;
+}
+
+.reservations-form {
+    overflow: hidden;
+    height: auto;
+    max-height: 2000px;
+    padding-left: 15px;
+}
+
+.reservations-form .divider2 {
+	margin: 14px 0 27px 80px;
+}
+
+.reservations article {
+  margin: 95px 0 70px 5px;
+}
+
+.reservations-form article h2 {
+    margin: 0;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    user-select: none;
+    cursor: default;
+    width: 410px;
+    overflow: hidden;
+    max-height: 90px;
+    text-align: center;
+}
+
+.reservations article p {
+    margin: 9px 0 10px 0;
+    width: 420px;
+    color: #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+}
+
+form {
+    overflow: hidden;
+    height: auto;
+    margin: -35px 0 0 -7px;
+}
+
+form section {
+  float: left;
+}
+
+form label {
+    color: #c9a131;
+    font-family: "Open Sans italic", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+form input {
+    outline: 0 !important;
+    width: 186px;
+    border: 1px solid #c8c6c6;
+    background-color: #ffffff;
+    color: #7c7c7c;
+    font-family: "Open Sans italic", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin: 8px 30px 22px 0;
+    padding: 7px 1px 7px 14px;
+}
+
+form input:focus {
+    border: 1px solid #c89f2d;
+}
+
+form p {
+    margin: 0;
+}
+
+button {
+    width: 200px;
+    height: 36px;
+    border: 1px solid #c89f2d;
+    background-color: #c89f2d;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 181px 0 0 -350px;
+}
+
+button:hover {
+    background-color: #986e2c;
+    border: 1px solid #986e2c;
+    transition: 0.3s;
+}
+
+                                                 /*FOOTER*/
+footer {
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+	height: 320px;
+	background-color: #191919;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: center;
+}
+
+footer article {
+	overflow: hidden;
+	width: 360px;
+	height: auto;
+	max-height: 300px;
+	float: left;
+	padding: 0 20px;
+}
+
+footer article h2 {
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    user-select: none;
+    cursor: default;
+    overflow: hidden;
+    max-height: 90px;
+	  text-align: center;
+	  margin: 10px 0 0 0;
+}
+
+footer .divider3 {
+	margin: 12px 0 0 60px;
+}
+
+footer article p {
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+    height: auto;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.cards {
+    margin: 51px 0 0 124px;
+}
+
+.cards ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cards li {
+    background: url("../images/cards.png") no-repeat;
+    height: 21px;
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 3px;
+}
+
+.cards a {
+    padding: 4px 12px 1px 12px;
+}
+
+.cards ul .card2 {
+    background-position: -32px 0;
+}
+
+.cards ul .card3 {
+    background-position: -65px 0;
+}
+
+.cards ul .card4 {
+    background-position: -97px 0;
+}
+
+.social {
+    margin-top: 52px;
+    margin-left: 140px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    background: url("../images/social.png") no-repeat;
+    height: 21px;
+    width: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.social a {
+    padding: 3px 17px 6px 3px;
+}
+
+.social ul .youtube {
+    background-position: -20px 0;
+}
+
+.social ul .twitter {
+    background-position: -44px 0;
+}
+
+.social ul .trello {
+    background-position: -71px 0;
+}
