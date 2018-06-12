@@ -1,5 +1,5 @@
-# restaurant
-# https://vladimir2430.github.io/restaurant
+# Do you want to see my restaurant?
+# <a href="https://uladzimir-yeudakimovich.github.io/restaurant">Click there ;)</a>
 ## Техническое Задание
 
 1. Общее:
