@@ -339,7 +339,7 @@ main {
     border: 5px solid rgba(255, 255, 255, 0.09);
 }
                                                      /*MENU*/
-menu {
+.menu {
     max-height: 2000px;
     overflow: hidden;
     background-image: url("../images/pattern2.png");
