@@ -175,9 +175,16 @@ main {
 .button1 {
     margin: 0 0 0 555px;
     width: 228px;
-    height: 57px;
     border: 1px solid #000000;
     background-color: rgba(0,0,0,0.55);
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    line-height: 57px;
 }
 
 .button1:hover {
@@ -185,48 +192,24 @@ main {
     transition: 0.3s;
 }
 
-.button1 a {
+.button2 {
+    margin: -59px 0 0 810px;
+    width: 228px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255,255,255,0.2);
     text-decoration: none;
     text-align: center;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    font-weight: 500;
     text-transform: uppercase;
-    user-select: none;
-    overflow: hidden;
-    max-height: 57px;
     display: block;
     line-height: 57px;
-}
-
-.button2 {
-    margin: 0 0 0 27px;
-    width: 228px;
-    height: 57px;
-    border: 1px solid #ffffff;
-    background-color: rgba(255,255,255,0.2);
 }
 
 .button2:hover {
     background-color: rgba(255,255,255,0.5);
     transition: 0.3s;
-}
-
-.button2 a {
-    text-decoration: none;
-    width: 228px;
-    height: 57px;
-    color: #ffffff;
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    user-select: none;
-    overflow: hidden;
-    max-height: 57px;
-    display: block;
-    line-height: 57px;
 }
 
 .about {
@@ -356,7 +339,7 @@ main {
     border: 5px solid rgba(255, 255, 255, 0.09);
 }
                                                      /*MENU*/
-.menu {
+menu {
     max-height: 2000px;
     overflow: hidden;
     background-image: url("../images/pattern2.png");
