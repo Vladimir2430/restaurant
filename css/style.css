@@ -1,27 +1,27 @@
 @font-face {
-	font-family: "Lato";
-	src: url(../fonts/Lato-Regular.ttf);
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.ttf);
 }
 
 @font-face {
-	font-family: "Yeseva One";
-	src: url(../fonts/YesevaOne-Regular_v2.otf);
+    font-family: "Yeseva One";
+    src: url(../fonts/YesevaOne-Regular_v2.otf);
 }
 
 @font-face {
-	font-family: "Gentium Basic";
-	src: url(../fonts/GenBasB.ttf);
+    font-family: "Gentium Basic";
+    src: url(../fonts/GenBasB.ttf);
 }
 
 
 @font-face {
-	font-family: "Open Sans italic";
-	src: url(../fonts/OpenSans-Italic.ttf);
+    font-family: "Open Sans italic";
+    src: url(../fonts/OpenSans-Italic.ttf);
 }
 
 @font-face {
-	font-family: "Open Sans";
-	src: url(../fonts/OpenSans-Regular.ttf);
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 
 body {
@@ -47,33 +47,28 @@ header {
 }
 
 .logo {
-	margin: 34px 5px;
-	font-size: 46px;
-	font-family: "Yeseva One";
-	color: #ffffff;
-	text-align: center;
-	-moz-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
-	-webkit-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
-	-ms-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
-	position: absolute;
-	left: 150.84px;
-	text-decoration: none;
+    margin: 34px 5px;
+    font-size: 46px;
+    font-family: "Yeseva One";
+    color: #ffffff;
+    text-align: center;
+    -moz-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
+    -webkit-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
+    -ms-transform: matrix( 0.78468899521531,0,0,0.78333333333333,0,0);
+    position: absolute;
+    left: 150.84px;
+    text-decoration: none;
 }
 
 .nav-menu a {
     text-decoration: none;
-    background-color: inherit;
     color: #ffffff;
     font-family: 'Gentium Basic', serif;
-    font-style: normal;
-    font-weight: 600;
     font-size: 20px;
-    user-select: none;
-    display: block;
 }
 
 .nav-menu a:hover {
-	color: red;
+	  color: red;
 }
 
 .nav-menu  ul {
@@ -107,33 +102,33 @@ header {
 }
 
 .icons {
-	list-style: none;
-	margin: 0 0 0 1305px;
-	padding: 0;
-	max-width: 200px;
-	height: 72px;
+    list-style: none;
+    margin: 0 0 0 1305px;
+    padding: 0;
+    max-width: 200px;
+    height: 72px;
 }
 
 .icons li {
-	margin-top: 50px;
-	background: url("../images/icons.png") no-repeat;
-	width: 27px;
-	height: 21px;
-	display: inline-block;
-	cursor: pointer;
+    margin-top: 50px;
+    background: url("../images/icons.png") no-repeat;
+    width: 27px;
+    height: 21px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .icons .icon2 {
-	background-position: -32px 0;
+	  background-position: -32px 0;
 }
 
 .icons .icon3 {
-	background-position: -63px 0;
+	  background-position: -63px 0;
 }
 
                                           /*MAIN*/
 main {
-  min-height: calc(100vh - 320px);
+    min-height: calc(100vh - 320px);
 }
 
 .promo {
@@ -160,15 +155,15 @@ main {
 }
 
 .divider {
-	height: 43px;
-	width: 232px;
-	background-image: url("../images/divider.png");
+    height: 43px;
+    width: 232px;
+    background-image: url("../images/divider.png");
     margin-top: 22px;
     margin-left: 687px;
 }
 
 .buttons {
-	margin-top: 33px;
+	  margin-top: 33px;
     overflow: hidden;
 }
 
@@ -246,9 +241,9 @@ main {
 }
 
 .divider2 {
-	background-image: url("../images/divider2.png");
-	width: 247px;
-	height: 24px;
+    background-image: url("../images/divider2.png");
+    width: 247px;
+    height: 24px;
     margin: 15px 0 0 80px;
 }
 
@@ -486,12 +481,12 @@ main {
     text-align: center;
     overflow: hidden;
     max-height: 267px;
-	margin: 16px 0 33px 75px;
+	  margin: 16px 0 33px 75px;
     font-family: 'Gentium Basic', serif;
     font-size: 25px;
     font-weight: 700;
-	line-height: 45px;
-	letter-spacing: 0.2px;
+	  line-height: 45px;
+	  letter-spacing: 0.2px;
     color: #dde0df;
 }
 
@@ -503,8 +498,8 @@ main {
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
-	color: #dde0df;
-	margin: 0 0 0 308px;
+	  color: #dde0df;
+	  margin: 0 0 0 308px;
 }
 
 .reviews article p:before {
@@ -550,11 +545,11 @@ main {
 }
 
 .reservations-form .divider2 {
-	margin: 14px 0 27px 80px;
+	  margin: 14px 0 27px 80px;
 }
 
 .reservations article {
-  margin: 95px 0 70px 5px;
+    margin: 95px 0 70px 5px;
 }
 
 .reservations-form article h2 {
@@ -591,7 +586,7 @@ form {
 }
 
 form span {
-  float: left;
+    float: left;
 }
 
 form label {
@@ -643,27 +638,27 @@ button:hover {
 
                                                  /*FOOTER*/
 footer {
-  width: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: auto;
-	height: 320px;
-	background-color: #191919;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-  align-content: center;
+    width: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    height: 320px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 footer article {
-	overflow: hidden;
-	width: 360px;
-	height: auto;
-	max-height: 300px;
-	float: left;
-	padding: 0 20px;
+    overflow: hidden;
+    width: 360px;
+    height: auto;
+    max-height: 300px;
+    float: left;
+    padding: 0 20px;
 }
 
 footer article h2 {
@@ -680,7 +675,7 @@ footer article h2 {
 }
 
 footer .divider3 {
-	margin: 12px 0 0 60px;
+	  margin: 12px 0 0 60px;
 }
 
 footer article p {
